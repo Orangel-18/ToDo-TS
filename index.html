@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasklist</title>
+    <script type="module" crossorigin src="/ToDo-TS/assets/index.2eb5079e.js"></script>
+    <link rel="stylesheet" href="/ToDo-TS/assets/index.5c58c7c9.css">
+  </head>
+  <body class="bg-slate-800 text-white">
+
+    <section class="flex justify-center items-center h-screen gap-x-3">
+
+      <form id="taskform" class="bg-slate-900 p-10 rounded-md max-w-md">
+
+        <h1 class="text-2xl mb-2">Tasks</h1>
+  
+        <label for="title" class="block ">Title</label>
+        <input type="text" name="title" placeholder="Title" id="title" class="bg-slate-700 px-1 py-2 rounded-md w-full m-1">
+  
+        <label for="description" class="block">Description</label>
+        <textarea name="description" id="description" rows="3" placeholder="Description" class="bg-slate-700 px-1 py-2 rounded-md w-full m-1"></textarea>
+  
+        <button class="bg-blue-900 hover:ring hover:ring-slate-400 px-6 py-2 rounded-md m-1 hover:bg-blue-500">Save</button>
+  
+      </form>
+  
+      <div id="tasklist" class=" max-w-md w-full h-3/5 p-10 overflow-y-scroll rounded-md">
+        
+      </div>
+
+    </section>
+
+    
+  </body>
+</html>
+
